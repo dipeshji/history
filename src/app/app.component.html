@@ -1,0 +1,197 @@
+<!-- <mat-slider min="1" max="100" step="1" value="1"></mat-slider> -->
+<nav class="navbar navbar-expand-sm  col-12 ">
+    <a class="navbar-brand" routerLink=''>EB-College Portal</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="material-icons" style="padding-right: 10px;">search</i></a>
+            </li>
+            <li class="nav-item dropdown mr-5">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons">notifications</i>
+                    <span class="count">4</span>
+                </a>
+                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div> -->
+            </li>
+        </ul>
+    </div>
+</nav>
+<html lang="en">
+
+<div class="container-fluid w-auto bg-light">
+    <div class="wrapper w-auto">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <mat-card class="example-card">
+                    <img mat-card-image class=" img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Andrea_Radrizzani_profile_GroupCEO_MPSilva.png" alt="Photo of a Shiba Inu">
+                    <mat-card-content >
+                      <p style="display: inline-block;">
+                        Dipesh Patidar <br>
+                        dpatidar336@gmail.com
+                      </p>
+                    </mat-card-content>
+                    <mat-card-actions >
+                    </mat-card-actions>
+                  </mat-card>
+            </div>
+            <div class="mainnav">
+                <p>MAIN NAVIGATION</p>
+            </div>
+
+            <div class="downmenu">
+                <ul class="list-unstyled components">
+                    <li class="nav-iteam">
+                        <a routerLink='' routerLinkActive="active" style="color: blue;"><i class="fa fa-home"></i>
+              Home</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" style="color: #333;" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="material-icons" style="vertical-align: bottom;">view_stream </i> Stream
+                        </a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <a href="#ComputerScience" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Computer
+                Science</a>
+                            <ul class="collapse list-unstyled" id="ComputerScience">
+                                <li class="nav-iteam">
+                                    <a [routerLink]="['stream/computerscience/1']" routerLinkActive="active"> Class 1
+                  </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/computerscience/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/computerscience/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/computerscience/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#InformationTechnology" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Information Technology</a>
+                            <ul class="collapse list-unstyled" id="InformationTechnology">
+                                <li>
+                                    <a [routerLink]="['stream/informationtechnology/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/informationtechnology/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/informationtechnology/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/informationtechnology/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#Electrical" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Electrical</a>
+                            <ul class="collapse list-unstyled" id="Electrical">
+                                <li>
+                                    <a [routerLink]="['stream/electrical/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/electrical/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/electrical/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/electrical/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#Mechanical" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Mechanical</a>
+                            <ul class="collapse list-unstyled" id="Mechanical">
+                                <li>
+                                    <a [routerLink]="['stream/mechanical/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/mechanical/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/mechanical/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/mechanical/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#ToolEngineering" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Tool
+                Engineering</a>
+                            <ul class="collapse list-unstyled" id="ToolEngineering">
+                                <li>
+                                    <a [routerLink]="['stream/toolengineering/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/toolengineering/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/toolengineering/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/toolengineering/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#ChemicalEngineering" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chemical
+                Engineering</a>
+                            <ul class="collapse list-unstyled" id="ChemicalEngineering">
+                                <li>
+                                    <a [routerLink]="['stream/chemicalengineering/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/chemicalengineering/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/chemicalengineering/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/chemicalengineering/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#BioChemical" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Bio-Chemical</a>
+                            <ul class="collapse list-unstyled" id="BioChemical">
+                                <li>
+                                    <a [routerLink]="['stream/biochemical/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/biochemical/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/biochemical/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/biochemical/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                            <a href="#Civil" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Civil</a>
+                            <ul class="collapse list-unstyled" id="Civil">
+                                <li>
+                                    <a [routerLink]="['stream/civilengineering/1']" routerLinkActive="active"> Class 1 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/civilengineering/2']" routerLinkActive="active"> Class 2 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/civilengineering/3']" routerLinkActive="active"> Class 3 </a>
+                                </li>
+                                <li>
+                                    <a [routerLink]="['stream/civilengineering/4']" routerLinkActive="active"> Class 4 </a>
+                                </li>
+                            </ul>
+                        </ul>
+                </ul>
+            </div>
+            <div class="sidebar-footer">
+                <p style="color: black;">© 2018 - 2019</p>
+                <span style="color: blue;"> EngineerBabu - College Portal. </span>
+                <br>
+                <span style="color: black;"><b>Version: 1.0.0 </b></span>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+
+<router-outlet></router-outlet>

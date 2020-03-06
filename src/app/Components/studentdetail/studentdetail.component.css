@@ -1,0 +1,116 @@
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: 150px;
+    line-height: 1.42857;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out 0s;
+    margin-top: -7.75rem !important;
+}
+
+
+.student-card{
+    background-color: white;
+}
+
+#student_meta_data{
+    padding-left: 2.2rem;
+    display: inline-block;
+    position: relative;
+    top: 0rem !important;
+    color: black;
+}
+
+/* send mail button */
+.mat-primary-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 0px 16px !important;
+    border-radius: none;
+}
+
+.mat-primary-header {
+    border: none;
+    padding: 0px 16px !important;
+    border-radius: none;
+    background-color: white;
+}
+
+/* Filter */
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+    color: black;
+}
+/* Filyter end */
+
+
+mat-tab-group[mat-stretch-tabs]>.mat-tab-header .mat-tab-label .mat-tab-label-content{
+    flex-basis: 0;
+    flex-grow: 1;
+    color: black;
+}
+
+/* student academic table */
+
+table {
+    width: 100%;
+  }
+  
+  .example-container {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  /* table styling */
+  .full-width-table {
+    width: 100%;
+}
+
+.full-width-table th {
+    color: black;
+    background-color: white;
+}
+
+.full-width-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.full-width-table tr:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+.full-width-table td {
+    color: black;
+}
+  /* table styling finish */
+
+  /* detail button */
+  .view-details-button {
+    background-color: #2196f3;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+/* detail button end */
+
+/* Persional details */
+
+/* persional detail end */
+
+
+

@@ -1,0 +1,65 @@
+<div id="page-content-wrapper" *ngIf="route.children.length===0">
+    <div class="page-content container-fluid w-100 col-10 float-right h-100  bg-light">
+        <div class="row">
+            <div class="col-12 pt-4">
+                <app-breadcrumb></app-breadcrumb>
+            </div>
+        </div>
+        <div class="card-class container-fluid bg-primary">
+            <div class="row">
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem;">
+                        <a class="card-text" [routerLink]="['computerscience']" routerLinkActive="active">Computer Science</a>
+                    </div>
+                </div>
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem;">
+                        <a class="card-text" [routerLink]="['informationtechnology']" routerLinkActive="active">Information Technology</a>
+                    </div>
+                </div>
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem !important;">
+                        <a class="card-text" [routerLink]="['electrical']" routerLinkActive="active">Electrical</a>
+                    </div>
+                </div>
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem !important;">
+                        <a class="card-text" [routerLink]="['mechanical']" routerLinkActive="active">Mechanical</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem !important;">
+                        <a class="card-text" [routerLink]="['toolengineering']" routerLinkActive="active">Tool Engineering</a>
+                    </div>
+                </div>
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem !important;">
+                        <a class="card-text" [routerLink]="['chemicalengineering']" routerLinkActive="active">Chemical Engineering</a>
+                    </div>
+                </div>
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem !important;">
+                        <a class="card-text" [routerLink]="['biochemical']" routerLinkActive="active">Bio-Chemical</a>
+                    </div>
+                </div>
+                <div class="col-3 pl-3 pt-4 pb-4">
+                    <div class="card" style="height: 3rem !important;">
+                        <a class="card-text" [routerLink]="['civilengineering']" routerLinkActive="active">Civil Engineering</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li *ngFor="let num of res" style="list-style: none;">
+                <br>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+<router-outlet></router-outlet>

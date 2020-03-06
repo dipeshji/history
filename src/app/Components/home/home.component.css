@@ -1,0 +1,18 @@
+.page-content {
+    margin-top: 1.5px !important;
+    margin-right: 25px !important;
+}
+
+.card-class a {
+    color: black;
+}
+
+.card:hover {
+    background-color: yellow !important;
+    font-size: 20px !important;
+}
+
+.card a {
+    padding-top: 12px !important;
+    padding-left: 10px;
+}
